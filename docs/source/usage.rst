@@ -8,7 +8,7 @@ Dashboard
 
 .. note::
 
-   This page is under development.
+   The Dashboard page is under development.
    
 
 Map
@@ -105,8 +105,22 @@ After selecting an option, more inputs are required for the algorithm to run. Th
 9) Please indicate the weight of individual customers should have on the capacity of a banker, according to their digital engagement score?
 
 
+A screenshot of these options is shown below:
+
+.. image:: images/closing_branch2.PNG
+  :width: 700
+  :alt: First View
 
 
+
+After selecting the desired options and clicking the Submit button the result is presented in a table format on the bottom of the page.
+
+
+A screenshot of a sample result is shown below:
+
+.. image:: images/closing_branch3.PNG
+  :width: 700
+  :alt: First View
 
 
 Customer Migration
