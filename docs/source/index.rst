@@ -20,4 +20,5 @@ Contents
 
    usage
    dashboard
+   closing_branch
   
