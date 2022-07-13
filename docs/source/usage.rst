@@ -91,16 +91,18 @@ A screenshot of these options is shown below:
 After selecting an option, more inputs are required for the algorithm to run. These inputs are:
 
 1) In which city do you wish to close branches?
-2) How many branches do you wish to close?
-3) Branches from which segments should be forbidden from closing? (epiloges edo na dialexoun 1 or more apo A, B, C, D) - afti i erotisi ine prosthiki
-4) The model forms geoclusters with branches that are within a certain distance between them. In order to ensure geographical coverage the model never proposes to close all branches in the same geocluster. What should be the maximum distance between the branches of the geoclusters? - oi epiloges na einai 2 km or 3 km, oxi se xiliades
-5)
+2) How many branches do you wish to close? (If **supervised** option selected only)
+3) Branches from which segments should be forbidden from closing?
+4) The model forms geoclusters with branches that are within a certain distance between them. In order to ensure geographical coverage the model never proposes to close all branches in the same geocluster. What should be the maximum distance between the branches of the geoclusters? 
+
+5)   
   * The model considers the location of any competitive branches prior to suggesting branches to close. Would you like the presence of any competitor bank close to a BoC branch to forbid the model from closing the specific branch? 
   * If you made a selection in question 5a, how far from the BoC branch should the competitor branch be located to be considered as a restriction to closing?
+  
 6) Should the model be allowed to close rural branches?
 7)  What is the revenue loss (as a % of the total branch revenue) that you expect to have when closing a branch?
-8)  Please indicate the maximum number of clients that each banker type may have registered on them (FYI the original direction from Hays was: CSRO: 4500, RRO: 1000, PRO: 800, SBRO: 300) . - the answer here should be the 5 banker types (CSRO, RRO, etc.) with an empty box next to each for the user to fill.
-9) Please indicate the weight of individual customers should have on the capacity of a banker, according to their digital engagement score? - stin apantisi prepei na exeis tis 4 katigories tou engagement + akoma mia pou legete "Dormant" k gia tin kathe katigoria na exeis tin orizontia bar apo 0-100%
+8)  Please indicate the maximum number of clients that each banker type may have registered on them (FYI the original direction from Hays was: CSRO: 4500, RRO: 1000, PRO: 800, SBRO: 300).
+9) Please indicate the weight of individual customers should have on the capacity of a banker, according to their digital engagement score?
 
 
 
