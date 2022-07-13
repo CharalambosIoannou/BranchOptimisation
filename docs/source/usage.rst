@@ -1,34 +1,32 @@
 Usage
 =====
 
-.. _installation:
+.. _dashboard:
 
-Installation
+Dashboard
 ------------
 
-To use Lumache, first install it using pip:
+Also called `First View` contains information about diffent Bank of Cyprus branches along with their competitors.
+Different filters can also be applied using the buttons on the right hand side of the map. These filters are:
 
-.. code-block:: console
+1) Show Bank of Cyprus branches per city on the map
+2) Show Competitor bank branches on the map
+3) Show the driving distance from each branch (**pending**)
 
-   (.venv) $ pip install lumache
 
-Creating recipes
+Closing Branch
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+test
 
-.. autofunction:: lumache.get_random_ingredients
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+Customer Migration
+----------------
 
-.. autoexception:: lumache.InvalidKindError
+test
 
-For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+Update Data
+----------------
 
+test
