@@ -6,7 +6,9 @@ Usage
 Dashboard
 ------------
 
-## Map 
+Map
+**********
+
 Also called `First View` contains information about diffent Bank of Cyprus branches along with their competitors.
 On the top a map which can show various bank branches (BoC and competitors) with different filters is displayed. These filters are:
 
@@ -22,7 +24,9 @@ A screenshot of the map with the filters can be seen below:
   :alt: First View
   
   
-## Branch Information
+Branch Information
+**********
+
 
 test
 
