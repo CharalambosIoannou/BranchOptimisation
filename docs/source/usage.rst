@@ -39,23 +39,29 @@ The information which is displayed is:
 3) The digital engagement of the customers.
 
 
-The screenshots for **all** branches can be seen below:
+The screenshots can be found below:
+
+* Selecting **all** branches:
 
 .. image:: images/dashboard2.PNG
   :width: 700
   :alt: First View
   
-  .. image:: images/dashboard4.PNG
+.. image:: images/dashboard4.PNG
   :width: 700
   :alt: First View
 
-A screenshot for a specific city (**Nicosia**) branches can be seen below:
+* Selecting a specific city (**Nicosia**):
 
 .. image:: images/dashboard3.PNG
   :width: 700
   :alt: First View
 
+* Selecting a specific branch in a city (**city: Nicosia, branch: 117**):
 
+.. image:: images/dashboard5.PNG
+  :width: 700
+  :alt: First View
 
 
 
