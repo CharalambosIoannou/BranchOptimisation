@@ -1,17 +1,17 @@
-Welcome to Lumache's documentation!
+Branch Optimisation documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+This project was developed in order to optimise the branch network so that the operating cost of the bank will be minimised and the revenue can be maximised.
 
-.. note::
 
-   This project is under active development.
+Some of the submodels that comprise the model are:
+
+
+Navigate to the :doc:`usage` section for further information about the dashboard and the different sections of the application.
+
+
+
 
 Contents
 --------
@@ -19,4 +19,4 @@ Contents
 .. toctree::
 
    usage
-   api
+  
