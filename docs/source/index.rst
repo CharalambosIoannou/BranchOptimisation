@@ -8,7 +8,7 @@ This project was developed in order to optimise the branch network so that the o
 Some of the submodels that comprise the model are:
 
 
-Navigate to the :doc:`usage` section for further information about the dashboard and the different sections of the application.
+Choose an option from the Contents below for further information about the dashboard and the different sections of the application.
 
 
 
@@ -18,7 +18,8 @@ Contents
 
 .. toctree::
 
-   usage
    dashboard
    closing_branch
+   customer_migration
+   update
   
