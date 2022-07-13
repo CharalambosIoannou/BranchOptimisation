@@ -13,6 +13,10 @@ Different filters can also be applied using the buttons on the right hand side o
 2) Show Competitor bank branches on the map
 3) Show the driving distance from each branch (**pending**)
 
+.. image:: images/dashboard1.PNG
+  :width: 400
+  :alt: First View
+
 
 Closing Branch
 ----------------
