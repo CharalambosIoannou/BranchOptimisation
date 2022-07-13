@@ -14,7 +14,7 @@ Different filters can also be applied using the buttons on the right hand side o
 3) Show the driving distance from each branch (**pending**)
 
 .. image:: images/dashboard1.PNG
-  :width: 600
+  :width: 700
   :alt: First View
 
 
