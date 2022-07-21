@@ -7,9 +7,33 @@ Update Data
 
 This is the main tab when new data are needed to be used by the application. 
 
-To update the data make sure you are using a KPMG laptop and follow these steps:
 
-1) Update ``competitor_branches.csv`` from Komis (BoC branches) and Web (competitor branches)
+Inputs
+------------
+**The application takes 5 CSV files as inputs**. These are:
+
+1) ``competitor_branches.csv`` -> This file has branch information of all banks in Cyprus. This includes Bank of Cyprus branches and Competitor branches.
+2) ``iso_branches_competitor_district_distances.csv`` -> This file has information regarding the distances of each Bank of Cyprus branch with its Competitor branches.
+3) ``iso_branches_boc_distances.csv`` -> This file has information regarding the distances of each Bank of Cyprus branch with the other Bank of Cyprus branches.
+4) ``hays.csv`` -> This file has information regarding the Hays.
+5) ``parking.csv`` -> This file has information regarding each branch specifications such as parking spaces and square meters.
+
+
+Explanation
+------------
+
+* The ``competitor_branches.csv`` is updated manually.
+* The ``iso_branches_competitor_district_distances.csv`` and ``iso_branches_boc_distances.csv`` is obtained from the SQL server (Branch_Optimisation database) **after** running a Python script.
+* The ``hays.csv`` and ``parking.csv`` is obtained from the bank
+
+
+
+Step-by-Step Guide 
+------------
+
+To update the data first have a laptop with **Python** installed and follow these steps:
+
+1) Update ``competitor_branches.csv``. Manually add or remove BoC and Competitor branches that are currently in operation
 2) Drop ``dbo.new_iso_branches`` table
 3) Insert ``competitor_branches.csv`` as`dbo.new_iso_branches` table
 4) Run ``python api_script.py``
